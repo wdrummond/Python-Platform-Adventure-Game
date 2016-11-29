@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="80">
+ <tileset firstgid="1" name="Tiles" tilewidth="32" tileheight="32">
+  <image source="tiles.png" width="5504" height="1024"/>
+ </tileset>
+ <tileset firstgid="5505" name="Coins" tilewidth="32" tileheight="32">
+  <image source="coins.png" width="384" height="256"/>
+ </tileset>
+ <layer name="background" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt10tWwjAYhuGfQxVkIAh2oGzGdThVB2UVnboTZziDEYeJug7X4cRUqPTktFx6y1/6Dp4T6CUk+ZqQLiYiCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABqPd2KPBtDX9au24LyXfsSum7DuRsyxuqYNS00axu5FPDjpXPdrraKxv6xIw8vvb9yTR5uRVkszfjf9EWW3i4T1+1qq+GlhANvk0VUmu/MD4fG23nxLptyYr6/XYiMfLgw82QdCbblqrsp48/7BN6ujO9P1mefi+sOrN+070ue97sid+a/7d6YGva9dnvs/gRWvclr0vqRVXceyXFIa2faPWPTX+0+TA6fxlfPfVvwn0dIHjowP3Rp0/zoCAAAAHC+Zlci0wE0iLKIfI+gges8XieHjx1zTZnHq6xbex4gD22S88hlHqt+85TVx6zri+Zx6tpZtH+H+l7n81P0uiryyNOfOn6rrr6UPY/sPKLnei759gZtyaLKbOM8NK698fNxzLGy6jlUd5Hz9rm0MWJ/5UbWM0seerLI+v9Iq6PK995j25p3/atrbS1jTdcyP6raAzeN6zyalkPVbd2XRx17rqbkUBfX8yPNKfvZKq7N++5VxjubxjzajDx0ifOAHr8W1AAC
+  </data>
+ </layer>
+ <layer name="solid" width="100" height="100" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1sENgzAQAEHcf9PpIAoRthdrRrovAm9yMK7rGiY1NOjRokeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokfLMMmhQY8WPVr0aNnZY/c7c8V79u51VveY+R0x+znunuk/z7iyx0m7cfb/aLaTWjztLbv3dM6qw2+34027ZMb+W7VbT9rtpXvZafcZvK3D7Hv9dn3fXes5kxY9WvRoWfWOML/PB387ArY=
+  </data>
+ </layer>
+ <objectgroup name="sprites">
+  <object id="1" type="player" gid="3252" x="288" y="3002" width="32" height="32"/>
+  <object id="36" type="badguy" gid="5479" x="1437" y="2926" width="32" height="32"/>
+  <object id="37" type="badguy" gid="5479" x="3106" y="3146" width="32" height="32"/>
+  <object id="40" type="coin" gid="5553" x="547" y="2979" width="32" height="32"/>
+  <object id="41" type="coin" gid="5553" x="579" y="2980" width="32" height="32"/>
+  <object id="42" type="coin" gid="5553" x="608" y="2980" width="32" height="32"/>
+  <object id="43" type="coin" gid="5553" x="1281" y="2886" width="32" height="32"/>
+  <object id="44" type="coin" gid="5553" x="1316" y="2885" width="32" height="32"/>
+  <object id="45" type="coin" gid="5553" x="1343" y="2887" width="32" height="32"/>
+  <object id="46" type="coin" gid="5553" x="1886" y="2886" width="32" height="32"/>
+  <object id="47" type="coin" gid="5553" x="1920" y="2886" width="32" height="32"/>
+  <object id="48" type="coin" gid="5553" x="2049" y="2883" width="32" height="32"/>
+  <object id="49" type="coin" gid="5553" x="2080" y="2886" width="32" height="32"/>
+  <object id="50" type="coin" gid="5553" x="2749" y="2885" width="32" height="32"/>
+  <object id="51" type="coin" gid="5553" x="2777" y="2884" width="32" height="32"/>
+  <object id="52" type="coin" gid="5553" x="2807" y="2886" width="32" height="32"/>
+  <object id="53" type="coin" gid="5553" x="2533" y="2789" width="32" height="32"/>
+  <object id="54" type="coin" gid="5553" x="2553" y="2788" width="32" height="32"/>
+  <object id="55" type="coin" gid="5553" x="2575" y="2791" width="32" height="32"/>
+  <object id="56" type="coin" gid="5553" x="2597" y="2791" width="32" height="32"/>
+  <object id="57" type="coin" gid="5553" x="2619" y="2790" width="32" height="32"/>
+  <object id="62" type="coin" gid="5553" x="2113" y="2628" width="32" height="32"/>
+  <object id="63" type="coin" gid="5553" x="2079" y="2629" width="32" height="32"/>
+  <object id="64" type="coin" gid="5553" x="2053" y="2632" width="32" height="32"/>
+  <object id="65" type="coin" gid="5553" x="835" y="2788" width="32" height="32"/>
+  <object id="66" type="coin" gid="5553" x="801" y="2817" width="32" height="32"/>
+  <object id="67" type="coin" gid="5553" x="610" y="2786" width="32" height="32"/>
+  <object id="71" type="coin" gid="5553" x="547" y="2786" width="32" height="32"/>
+  <object id="79" type="magic" gid="1707" x="325" y="3033" width="32" height="32"/>
+ </objectgroup>
+ <layer name="foreground" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2KENACAMRcFOAAb2XxVB2KANFXdJXd1zPwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKgw5j0AgGpr5/yQQ49e9OhFj170AIB/3n5sR+7rAFZKAkk=
+  </data>
+ </layer>
+</map>

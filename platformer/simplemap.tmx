@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextobjectid="22">
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32">
+  <image source="tiles.png" width="5504" height="1024"/>
+ </tileset>
+ <layer name="solid" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NkYGBgHGA8UGDU/lH7ybGfWm6mxH5q5K+hGv70sJ8e5RMh+9HdQe1yczCH/6j9qGpoUb8OBf+P2k89wMcPwdS2n9w0OdLCfzjYT832/FD0/0ixnx79tsHsf3raP5AYAJA+810AEAAA
+  </data>
+ </layer>
+ <layer name="background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+tlZmDoGyDcD8SWLAwMJgwDg61ZRu0ftZ90faC0O9D2k4KHW/jTw35iwo/W9hOK6+Ec/qP2E47/0fw/av9gsJ/cNDlc/D+S7KekvBkO/h8p9lMznoei/+ll/1MgfjZA+DkQAwAbXuvbABAAAA==
+  </data>
+ </layer>
+ <objectgroup name="sprites">
+  <object id="2" type="coin" gid="3661" x="617" y="325" width="32" height="32"/>
+  <object id="3" type="coin" gid="3661" x="761" y="370" width="32" height="32"/>
+  <object id="4" type="coin" gid="3661" x="851" y="139" width="32" height="32"/>
+  <object id="5" type="coin" gid="3661" x="356" y="129" width="32" height="32"/>
+  <object id="6" type="coin" gid="3661" x="607" y="138" width="32" height="32"/>
+  <object id="7" type="coin" gid="3661" x="356" y="129" width="32" height="32"/>
+  <object id="8" type="coin" gid="3661" x="84" y="278" width="32" height="32"/>
+  <object id="9" type="coin" gid="3661" x="451" y="719" width="32" height="32"/>
+  <object id="14" type="player" gid="3252" x="228" y="865" width="32" height="32"/>
+  <object id="15" type="badguy" gid="5479" x="388" y="894" width="32" height="32"/>
+  <object id="17" type="coin" gid="3661" x="423" y="877" width="32" height="32"/>
+  <object id="20" type="badguy" gid="5479" x="740" y="477" width="32" height="32"/>
+ </objectgroup>
+</map>
